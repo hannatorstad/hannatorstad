@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+  <!-- NAVN OG ICON -->
+    <title>Kontakt — Hanna Tørstad</title>
+    <link rel="icon" href="beige_icon.png" type="image" sizes="16x16">
+
+  <!-- FONTER -->
+    <link rel="stylesheet" href="https://use.typekit.net/iea2rxn.css">
+
+  <!-- STYLESHEET -->
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/Style_kontakt.css">
+    <link rel="stylesheet" href="css/Style_hvrbox.css">
+    <link rel="stylesheet" href="css/Style_hamburger.css">
+
+
+    <!-- HEADER -->
+    <div class="header">
+      <a href="index.html"> <h1 class="h1">Hanna <br>Tørstad</h1></a>
+
+    <!-- Hamburgermeny -->
+       <div class="hamburger">
+         <hamburger onclick="toggle()">
+           <div class="bar bar1"></div>
+           <div class="bar bar2"></div>
+           <div class="bar bar3"></div>
+         </hamburger>
+       </div>
+    </div>
+  </head>
+
+
+
+
+
+<body>
+  <!-- MENYSIDE -->
+  <div id="overlay_meny" onclick="toggle()">
+    <div id="meny"
+    <nav>
+      <ul style="list-style-type:none;">
+        <li> <a href="index.html">prosjekter</a></li>
+        <li><a href="kontakt.html">kontakt</a></li>
+        <li><a href="om.html">om</a></li>
+      </ul>
+    </nav>
+  </div>
+  </div>
+
+  <script>
+    function toggle() {
+      document.getElementById("overlay_meny").classList.toggle("showing");
+      document.getElementsByClassName("hamburger")[0].classList.toggle("change");
+      document.getElementsByClassName("h1")[0].classList.toggle("white");
+    }
+  </script>
+
+
+
+
+
+
+<div class="kontakt">
+ <!-- LINKER kontaktinfo -->
+  <a class="kontaktinfo" href="mailto:hanna.torstad@gmail.com?" target="_top">hanna.torstad@gmail.com</a> <br>
+  <a class="kontaktinfo" href="https://www.linkedin.com/in/hannatorstad/">Linkedin/hannatorstad</a>  <br>
+  <a class="kontaktinfo" href="https://www.instagram.com/hannatorstad/">@hannatorstad</a>
+</div>
+
+</html>

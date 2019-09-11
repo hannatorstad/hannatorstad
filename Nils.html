@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+  <!-- NAVN OG ICON -->
+    <title>Nils — Hanna Tørstad</title>
+    <link rel="icon" href="beige_icon.png" type="image" sizes="16x16">
+
+  <!-- FONTER -->
+    <link rel="stylesheet" href="https://use.typekit.net/iea2rxn.css">
+
+  <!-- STYLESHEET -->
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/Style_nils.css">
+    <link rel="stylesheet" href="css/Style_hvrbox.css">
+    <link rel="stylesheet" href="css/Style_hamburger.css">
+
+
+    <!-- HEADER -->
+    <div class="header">
+    <!-- Hamburgermeny -->
+       <div class="hamburger">
+         <hamburger onclick="toggle()">
+           <div class="bar bar1"></div>
+           <div class="bar bar2"></div>
+           <div class="bar bar3"></div>
+         </hamburger>
+       </div>
+
+       <a href="index.html"> <h1 class="h1">Hanna <br>Tørstad</h1></a>
+
+
+    </div>
+  </head>
+
+
+
+
+
+
+
+<body>
+  <!-- MENYSIDE -->
+  <div id="overlay_meny" onclick="toggle()">
+    <div id="meny"
+    <nav>
+      <ul style="list-style-type:none;">
+        <li><a href="index.html">prosjekter</a></li>
+        <li><a href="kontakt.html">kontakt</a></li>
+        <li><a href="om.html">om</a></li>
+      </ul>
+    </nav>
+  </div>
+  </div>
+
+  <script>
+    function toggle() {
+      document.getElementById("overlay_meny").classList.toggle("showing");
+      document.getElementsByClassName("hamburger")[0].classList.toggle("change");
+      document.getElementsByClassName("h1")[0].classList.toggle("white");
+    }
+  </script>
+
+
+
+<div class="wrapper_nils">
+
+ <!-- NILS scooter -->
+
+
+
+    <div class="box box_nils1">  <!-- Helbilde scooter -->
+          <img src="nils/img_8382-kopi.jpg" width="100%" height="100%" class="hvrbox-layer_bottom">
+    </div>
+
+    <div class="box box_nils2"> <!-- styre -->
+      <img src="nils/nils_styre.jpg" width="100%" height="100%" class="hvrbox-layer_bottom">
+      </div>
+
+      <div class="box box_nils3">
+          <h2 class="Prosjekt">NILS</h2>
+          <p class="date">Mars 2018</p>
+
+
+          <p class="text">
+            Av da Lahm, Ørjan Laxaa, Eila Rishovd og Hanna Tørstad <br>
+            Studentprosjekt ved AHO, varighet 4 uker <br>
+            Kurs: Fysiske produkter og porduksjonsmetoder<br>
+            Bidrag til Singapore International 3D Printing Competition 2018
+          </p>
+      </div>
+
+
+    <!--  <div class="box box_nils35">
+        <img src="nils/IMG_8368.JPG" width="100%" height="100%" class="hvrbox-layer_bottom">
+      </div> -->
+
+      <div class="box box_nils4"> <!-- eila -->
+        <img src="nils/IMG_0682_redigert.jpg" width="100%" height="100%" class="hvrbox-layer_bottom">
+      </div>
+
+    <div class="box box_nils5"> <!-- tekst 1 -->
+
+
+        <p class="text_bold">Nils er en 3D-printet elektrisk scooter designet for seniorer i Singapore. Scooteren skal gi brukeren følelsen av og muligheten til å bevege seg fritt og sømløst gjennom Singapores gater. Kjøretøyet er egnet for den aktive pensjonisten som ønsker å ferdes i byen på en sporty måte. 
+            <p class="text">
+          <br>
+        <!--  MATERIALER <br>
+          SLS 3D-print i nylon, meier og styre av eik med holker i 3D-printet silikon.
+           <br> <br>
+         DIMENSJONER<br>
+        H: 90cm, B: 50cm, L: 100cm 
+         <br><br>-->
+
+
+        <p class="text">
+          BRIEF <br>
+          Prosjektet er gjort som en del av kurset "Fysiske produkter og produksjonsmetoder" ved grunnutdanningen ved AHO. Briefen er basert på kriterier for “Singapore International 3D Printing Competition 2018”, hvor oppgaven var å designe et personlig transportmiddel som kan tilpasses behovene til den eldre befolkningen i Singapore. Et viktig kriterium var å utnytte det egenskapene og fordelene som er unikt for 3D-printing.
+          <br> <br> <br>
+          DESIGN <br>
+          Det endelige designet er et sammenhengende bånd, som vrir seg fra styret og ned til meiene. Designet er spesielt godt egnet for 3D-printing og "additive manufacturing", da det består av en tett overflate med honeycomb-struktur for optimalt forhold mellom styrke og vekt. Vridningene og den sammenhengede formen, uten skjøter eller koblinger, gjør at formen vanskelig lar seg gjøre i noe annet enn 3D-print. 
+          <br><br>
+          Målet er at Scooteren skal vekke oppsikt og forundring. Dette har vi forsøkt å løse ved å skape en illusjon av at den svever, ved at den ikke har noen synlig kontakt med bakken. 
+        </p>
+    </div>
+
+
+
+      <div class="box box_nils6"> <!-- Tom på scooter -->
+        <img src="nils/IMG_0708_redigert.jpg" width="100%" height="100%" class="hvrbox-layer_bottom">
+
+        </div>
+
+        <div class="box box_nils7"> <!-- printede deler -->
+          <img src="nils/IMG_8363.JPG" width="100%" height="100%" class="hvrbox-layer_bottom">
+        </div>
+
+        <div class="box box_nils8"> <!-- tekst 2 -->
+            <p class="text">
+              Vi har ønsket å lage et framkomstmiddel som uttrykker og gir opplevelse av trygghet i trafikken. De brede meiene gjør den trygg og stødig, uten behov for å balansere. For å uttrykke dette har vi valgt å gjøre den “bunntung” visuelt ved at den  blir litt mer massiv  og flater ut mot bunnen. Teknisk vil den også være tyngre i bunnen, da det her vil være plassert vekt av hjul, motor og batteri. At rammen går sammen og er mer lukket i front gir også en opplevelse av å sitte mer beskyttet. 
+              <br><br>
+              Samtidig var det viktig for oss at det ikke oppleves som et hjelpemiddel. Vi har jobbet etter noen mål mellom håndtak, sete og bunn for å få ønsket sittestilling. Hvis vi ser på setet sitter man ganske høyt, det er relativt lite og uten stor ryggstøtte. Dette, sammen med det høye styret gjør at man sitter oppreist og aktivt. 
+              Det store rommet mellom sete og styret gjør at brukeren lett kommer seg av og på, uten å måtte klatre - kun ta et lite steg opp på meiene. 
+              <br><br><br> <br>
+              PROSESS <br>
+              Vi begynte å utforske former i leire, papir og metall. Vi syntes det var interessant med et kontinuerlig bånd,  som vrir seg til en solid form uten skjøter. Med gjennomsnittsmålene for en innbygger i Singapore, testet vi ulike høyder, dimensjoner og avstander i 1:1 modeller i papir og styrofoam. Med 3D-print kan scooteren enkelt skaleres og skrives ut i forskjellige størrelser for mennesker i alle høyder.
+              </p>
+
+          </div>
+
+
+
+
+
+
+
+</div>
+
+</body>
+
+
+
+
+
+<footer class="footer">
+ <!-- LINKER kontaktinfo -->
+  <a class="footertext" href="mailto:hanna.torstad@gmail.com?" target="_top">hanna.torstad@gmail.com</a><br>
+  <a class="footertext" href="https://www.linkedin.com/in/hannatorstad/">Linkedin/hannatorstad</a>  <br>
+  <a class="footertext" href="https://www.instagram.com/hannatorstad/">@hannatorstad</a>
+</footer>
+
+</html>

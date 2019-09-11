@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+  <!-- NAVN OG ICON -->
+    <title>Sjakk — Hanna Tørstad</title>
+    <link rel="icon" href="beige_icon.png" type="image" sizes="16x16">
+
+  <!-- FONTER -->
+    <link rel="stylesheet" href="https://use.typekit.net/iea2rxn.css">
+
+  <!-- STYLESHEET -->
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/Style_sjakk.css">
+    <link rel="stylesheet" href="css/Style_hvrbox.css">
+    <link rel="stylesheet" href="css/Style_hamburger.css">
+
+
+    <!-- HEADER -->
+    <div class="header">
+      <a href="index.html"> <h1 class="h1">Hanna <br>Tørstad</h1></a>
+
+    <!-- Hamburgermeny -->
+       <div class="hamburger">
+         <hamburger onclick="toggle()">
+           <div class="bar bar1"></div>
+           <div class="bar bar2"></div>
+           <div class="bar bar3"></div>
+         </hamburger>
+       </div>
+    </div>
+  </head>
+
+
+
+
+
+<body>
+  <!-- MENYSIDE -->
+  <div id="overlay_meny" onclick="toggle()">
+    <div id="meny"
+    <nav>
+      <ul style="list-style-type:none;">
+        <li> <a href="index.html">prosjekter</a></li>
+        <li><a href="kontakt.html">kontakt</a></li>
+    <li><a href="om.html">om</a></li>
+      </ul>
+    </nav>
+  </div>
+  </div>
+
+  <script>
+    function toggle() {
+      document.getElementById("overlay_meny").classList.toggle("showing");
+      document.getElementsByClassName("hamburger")[0].classList.toggle("change");
+      document.getElementsByClassName("h1")[0].classList.toggle("white");
+    }
+  </script>
+
+
+
+
+
+<div class="wrapper_sjakk">
+
+ <!-- REISESJAKK -->
+    <div class="box box_sjakk1">
+      <img src="sjakk/IMG_1903.jpg" width="100%" height="100%" class="hvrbox-layer_bottom">
+    </div>
+
+
+    <div class="box box_sjakk2">
+          <img src="sjakk/sjakk4.jpg" width="100%" height="100%" class="hvrbox-layer_bottom">
+    </div>
+
+    <div class="box box_sjakk3">
+
+      <h2 class="h2">REISESJAKK</h2>
+      <p class="date">APRIL 2018</p> 
+      <p class="text">
+          Av Hanna Tørstad <br>
+          Studentprosjekt ved AHO <br>
+          Kurs: Fysiske produkter og produksjonsmetoder</p>
+    </div>
+
+    <div class="box box_sjakk4">
+      <img src="Sjakk/sjakk2.jpg" width="100%" height="100%" class="hvrbox-layer_bottom">
+        </div>
+
+      <div class="box box_sjakk5">
+
+      </div>
+
+      <div class="box box_sjakk6">
+          <p class="text_bold"> blablabla </p>
+          <p class="text"> blablabla </p>
+        </div>
+
+
+
+
+</div>
+
+</body>
+
+
+
+
+
+<footer class="footer">
+ <!-- LINKER kontaktinfo -->
+  <a class="footertext" href="mailto:hanna.torstad@gmail.com?" target="_top">hanna.torstad@gmail.com</a><br>
+  <a class="footertext" href="https://www.linkedin.com/in/hannatorstad/">Linkedin/hannatorstad</a>  <br>
+  <a class="footertext" href="https://www.instagram.com/hannatorstad/">@hannatorstad</a>
+</footer>
+
+</html>

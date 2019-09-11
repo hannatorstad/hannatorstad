@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+  <!-- NAVN OG ICON -->
+    <title>Sjakk — Hanna Tørstad</title>
+    <link rel="icon" href="beige_icon.png" type="image" sizes="16x16">
+
+  <!-- FONTER -->
+    <link rel="stylesheet" href="https://use.typekit.net/iea2rxn.css">
+
+  <!-- STYLESHEET -->
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/Style_sjakk.css">
+    <link rel="stylesheet" href="css/Style_hvrbox.css">
+    <link rel="stylesheet" href="css/Style_hamburger.css">
+
+
+    <!-- HEADER -->
+    <div class="header">
+    <!-- Hamburgermeny -->
+       <div class="hamburger">
+         <hamburger onclick="toggle()">
+           <div class="bar bar1"></div>
+           <div class="bar bar2"></div>
+           <div class="bar bar3"></div>
+         </hamburger>
+       </div>
+
+       <a href="index.html"> <h1 class="h1">Hanna <br>Tørstad</h1></a>
+
+
+    </div>
+  </head>
+
+
+
+
+
+
+
+<body>
+  <!-- MENYSIDE -->
+  <div id="overlay_meny" onclick="toggle()">
+    <div id="meny"
+    <nav>
+      <ul style="list-style-type:none;">
+        <li><a href="index.html">prosjekter</a></li>
+        <li><a href="kontakt.html">kontakt</a></li>
+        <li><a href="om.html">om</a></li>
+      </ul>
+    </nav>
+  </div>
+  </div>
+
+  <script>
+    function toggle() {
+      document.getElementById("overlay_meny").classList.toggle("showing");
+      document.getElementsByClassName("hamburger")[0].classList.toggle("change");
+      document.getElementsByClassName("h1")[0].classList.toggle("white");
+    }
+  </script>
+
+
+
+<div class="wrapper_sjakk">
+
+ <!-- Sjakk -->
+
+
+
+    <div class="box box_sjakk1">  <!-- brikker utover-->
+          <img src="sjakk/sjakk1_redigert.JPG" width="100%" height="100%" class="hvrbox-layer_bottom">
+    </div>
+
+    <div class="box box_sjakk2"> <!-- konge+dronning -->
+      <img src="sjakk/IMG_1938.JPG" width="100%" height="100%" class="hvrbox-layer_bottom">
+      </div>
+
+      <div class="box box_sjakk3">
+          <h2 class="Prosjekt">SJAKK</h2>
+          <p class="date">APRIL 2018</p>
+
+          <p class="text">
+            Av Hanna Tørstad <br>
+            Studentprosjekt ved AHO, varighet 4 uker <br>
+            Kurs: Fysiske produkter og porduksjonsmetoder<br>
+
+      </div>
+
+      <div class="box box_sjakk4"> <!-- brikker, pakket -->
+        <img src="sjakk/IMG_1903.jpg" width="100%" height="100%" class="hvrbox-layer_bottom">
+      </div>
+
+    <div class="box box_sjakk5"> <!-- tekst 1 -->
+
+
+        <p class="text_bold">Sjakksett med brikker som pakkes sammen og blir kompakt, for enkelt å kunne tas med på reise og spilles med i full størrelse. Designet for å ekstruderes i aluminium. </p>
+<br>
+        <p class="text">
+          Den gitte briefen var å designe et sett med sjakkbrikker med ekstrudering av aluminium som produksjonsmetode.  Jeg valgte å designe et sett reisesjakk, hvor brikkene kan pakkes inn i hverandre og bli til to kompakte rektangler, som enkelt kan tas med rundt. 
+          <br><br>
+          Det viktigste for utviklingen av designet har vært at brikkene skal være i tilnærmet full størrelse,  lett gjenkjennelig og stødige å spille med. Samtidig skulle de ta minst mulig plass i sammenpakket tilstand. 
+        </p>
+
+        <p class="text">
+        <br><br>MATERIALER <br>
+        Brikker i 100% aluminium, med overflate farget ved eloksering.<br>
+        Modellen er SLS 3D-printet i nylon.<br><br>
+         DIMENSJONER<br>
+         I pakket tilstand:  H: 20mm, B: 30mm, L: 142mm
+      </p>
+      </div>
+
+
+
+      <div class="box box_sjakk6"> <!-- seng vindu -->
+        <img src="sjakk/Sjakk4.JPG" width="100%" height="100%" class="hvrbox-layer_bottom">
+
+        </div>
+
+
+</div>
+
+</body>
+
+
+
+
+
+<footer class="footer">
+ <!-- LINKER kontaktinfo -->
+  <a class="footertext" href="mailto:hanna.torstad@gmail.com?" target="_top">hanna.torstad@gmail.com</a><br>
+  <a class="footertext" href="https://www.linkedin.com/in/hannatorstad/">Linkedin/hannatorstad</a>  <br>
+  <a class="footertext" href="https://www.instagram.com/hannatorstad/">@hannatorstad</a>
+</footer>
+
+</html>
